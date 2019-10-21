@@ -1,0 +1,300 @@
+@font-face{
+    font-family: 'Asap';
+    src: url(./Shrifts/Asap-Regular.otf);
+}
+@font-face{
+    font-family: 'Myriad';
+    src: url(./Shrifts/Myriad.otf);
+}
+@font-face{
+    font-family: 'Sans';
+    src: url(./Shrifts/Sans-italic.ttf);
+}
+
+header {
+  background-image: url(./Style/Dekst/fonVerh.png);
+  height:566px;
+  width:1300px;
+  position: relative;
+}
+.Head{
+  margin-top:26px;
+  height:487px;
+  width: 1301px;
+  position: absolute;
+}
+.Logo{
+  margin-left: 138px;
+  height:87px;
+  width: 319px;
+  position: absolute;
+}
+.LeftButton{
+  margin-top:272px;
+  height:58px;
+  width: 33px;
+  position: absolute;
+  cursor:pointer;
+}
+.RightButton{
+  margin-top:273px;
+  margin-left: 1268px;
+  height:58px;
+  width: 33px;
+  position: absolute;
+}
+.Name{
+  margin-left: 94px;
+  margin-top: 34px;
+  height:30px;
+  width: 225px;
+  position: absolute;
+}
+.Name p{
+  font-family: "Sans";
+  font-size: 41px;
+  margin-top: -9px;
+  color:white;
+}
+.strela{
+  margin-top: 19px;
+  margin-left: 7px;
+}
+.strela2{
+  margin-top: 18px;
+  margin-left: 11px;
+}
+.Info{
+  position:absolute;
+  margin-left: 697px;
+  margin-top:35px;
+  height:52px;
+  width: 464px;
+
+}
+.Cool{
+  position: absolute;
+  margin-left: 750px;
+  margin-top: 232px;
+  width:392px;
+  height: 121px;
+  font-size: 63px;
+  text-align: center;
+  font-family: "Asap";
+  padding:0px;
+}
+.player{
+  position: absolute;
+  margin-top: 140px;
+  width:769px;
+  height: 347px;
+
+}
+.video {
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 150px;
+  width:549px;
+  height: 327px;
+}
+.Info p{
+  font-family:"Myriad";
+  font-size: 17px;
+  color:#A78708;
+  cursor:pointer;
+}
+.Design{
+  margin-top:153px;
+  margin-left:229px;
+  width:180px;
+  height: 21px;
+  position: absolute;
+}
+.Free{
+  margin-top:154px;
+  margin-left:933px;
+  width:96px;
+  height: 21px;
+  position: absolute;
+}
+.Cust{
+  margin-top:154px;
+  margin-left:592px;
+  width:136px;
+  height: 21px;
+  position: absolute;
+}
+.Free p,.Cust p,.Design p{
+  font-family:"Myriad";
+  font-size: 27px;
+  color:black;
+  cursor:pointer;
+  margin-top:-6px;
+  text-align: center;
+}
+.Tex {
+  margin-left:143px;
+  margin-top:42px;
+  height: 28px;
+  width: 517px;
+  position: absolute;
+}
+.Tex p{
+  font-family: "Myriad";
+  font-size: 37px;
+  text-transform: uppercase;
+  position: absolute;
+  margin-top: -9px;
+  text-align: left;
+  color: white;
+}
+.ABS{
+  margin-left:170px;
+  margin-top:135px;
+  height: 174px;
+  width: 272px;
+  position: absolute;
+}
+.ABS p{
+  font-family: "Myriad";
+  font-size: 29px;
+  position: absolute;
+  margin-top: -7px;
+  text-align: left;
+  color: white;
+}
+.Number{
+  margin:358px 170px;
+  height: 38px;
+  width: 55px;
+  position: absolute;
+}
+.Number p{
+  font-family: "Myriad";
+  font-size: 51px;
+  position: absolute;
+  margin-top: -13px;
+  text-align: left;
+  color: white;
+}
+.Day{
+  margin:405px 171px;
+  height: 15px;
+  width: 55px;
+  position: absolute;
+}
+.Day p{
+  font-family: "Myriad";
+  font-size: 21px;
+  position: absolute;
+  margin-top: -5px;
+  text-align: left;
+  color: #B26529;
+}
+.twitter{
+  margin:130px 1115px;
+  height: 18px;
+  width: 24px;
+  position: absolute;
+}
+.twitter p{
+  font-family: "Myriad";
+  font-size: 25px;
+  position: absolute;
+  margin-top: -6px;
+  text-align: left;
+  color: white;
+}
+input[type=range] {
+  -webkit-appearance: none;
+  width: 897px;
+  margin: 471px 212px;
+  position: absolute;
+  cursor: pointer;
+  background: white;
+  border-radius: 8px;
+  opacity: 0.47843137254901963;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-thumb {
+  height: 16px;
+  width: 198px;
+  border-radius: 8px;
+  background: #EC9E03;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+.Sec2Text{
+  margin:48px 353px;
+  position: absolute;
+  width: 601px;
+  height: 32px;
+}
+.Sec2Text p{
+  font-family: "Myriad";
+  font-size: 45px;
+  position: absolute;
+  margin-top: -11px;
+  text-align: left;
+  color: #F5C506;
+  text-transform: uppercase;
+}
+.Sec2Free{
+  margin:147px 145px;
+  position: absolute;
+  width: 105px;
+  height: 14px;
+}
+.Sec2Free p{
+  font-family: "Myriad";
+  font-size: 17px;
+  position: absolute;
+  margin-top: -3px;
+  text-align: left;
+  color: white;
+  text-transform: uppercase;
+}
+.Table{
+  position: absolute;
+  margin:187px 777px;
+  width: 365px;
+}
+ul li{
+    list-style-type: none;
+    margin-bottom: 26px;
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: #a9a9a7;
+    font-family: "Myriad";
+    font-weight: 400;
+}
+ul li::before{
+    content: "";
+    display: list-item;
+    position: absolute;
+    left: 0;
+    height:15px;
+    width: 15px;
+    border-radius:50%;
+    background-color:#000;
+    margin-right:16px;
+    margin-top: 8px;
+    background-color: #f5c506;
+}
+.LastText{
+  margin:23px 203px;
+  position: absolute;
+  width: 160px;
+  height: 21px;
+}
+.LastText p{
+  font-family: "Sans";
+  font-size: 29px;
+  position: absolute;
+  margin-top: -6px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}

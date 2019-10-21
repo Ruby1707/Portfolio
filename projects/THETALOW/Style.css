@@ -1,0 +1,401 @@
+@font-face{
+    font-family: 'Asap';
+    src: url(./Shrifts/Asap-Regular.otf);
+}
+@font-face{
+    font-family: 'Myriad';
+    src: url(./Shrifts/Myriad.otf);
+}
+@font-face{
+    font-family: 'MyriadPro';
+    src: url(./Shrifts/MyrianPro.otf);
+}
+@font-face{
+    font-family: 'Sans';
+    src: url(./Shrifts/Sans-italic.ttf);
+}
+.Start{
+  position: absolute;
+}
+.Logo{
+  position: absolute;
+}
+.LogoBack{
+  position: inherit;
+}
+.Logo1{
+  position: inherit;
+  margin: 11px 12px;
+}
+.Logo2{
+  position: inherit;
+  margin: 11px 11px;
+}
+.Name{
+  position: inherit;
+  margin: 26px 60px;
+}
+.textName{
+  font-family: "Sans";
+  font-size: 19px;
+  color: white;
+  text-transform: uppercase;
+  margin-top: -4px;
+  text-shadow: 1px 2px 1px #2C2C2C;
+}
+.Navi{
+  background-image: url(./Style/Mob/navi/back.png);
+  position:absolute;
+  margin-left: 184px;
+  margin-top: -1px;
+  width: 456px;
+  height: 63px;
+}
+.face{
+  position: inherit;
+  margin: 19px 24px;
+  size: 25px 23px;
+}
+.About{
+  position: inherit;
+  height: 15px;
+  width: 90px;
+  margin: 25px 60px;
+}
+.textAbout, .textServ, .textContact{
+  font-family: "Myriad";
+  font-size: 20px;
+  color: #9B7D08;
+  text-transform: uppercase;
+  margin-top: -5px;
+}
+.Part1{
+  position: inherit;
+  opacity: 0.10196078431372549;
+  margin-left: 173px;
+}
+.key{
+  position: inherit;
+  margin: 20px 181px;
+}
+.Serv{
+  position: inherit;
+  margin: 25px 212px;
+}
+.Part2{
+  position: inherit;
+  margin-left: 306px;
+  opacity: 0.10196078431372549;
+}
+.letter{
+  position: inherit;
+  margin: 19px 318px;
+}
+.Contact{
+  position: inherit;
+  margin: 25px 359px;
+}
+.Video{
+  position: absolute;
+  margin-top: 62px;
+}
+.mult{
+  position: inherit;
+}
+.Layer{
+  position: inherit;
+  margin-top: -1px;
+  opacity: 0.5803921568627451;
+}
+.Eclipse{
+  position: inherit;
+  margin: 129px 294px;
+  cursor: pointer;
+}
+.BigPusk{
+  position: inherit;
+  margin: 146px 321px;
+}
+.Kvadr{
+  position: inherit;
+  margin: 278px 83px;
+  opacity: 0.3686274509803922;
+  cursor: pointer;
+}
+.SmallPusk{
+  position: inherit;
+  margin: 282px 92px;
+  cursor: pointer;
+}
+.PolnZag{
+  position: inherit;
+  margin: 285px 133px;
+}
+.ZagNow{
+  position: inherit;
+  margin: 285.5px 133px;
+  height: 12px;
+  width: 182px;
+  border-radius: 6px 0px 0px 6px;
+}
+.Voice{
+  position: inherit;
+  margin: 284px 568px;
+  cursor: pointer;
+}
+.VideoBack{
+  position: inherit;
+  opacity: 0.10980392156862745;
+}
+.Intro{
+  position: absolute;
+  margin-top: 389px;
+}
+.Layer1{
+  position: inherit;
+  opacity: 0.4;
+  margin-top: -9px;
+}
+.Layer2{
+  position: inherit;
+  margin-top: -4px;
+}
+.Cloud{
+  position: inherit;
+  margin: 41px 44px;
+}
+.Leave{
+  position: inherit;
+  margin: 37px 294px;
+}
+.Plane{
+  position: inherit;
+  margin: 37px 495px;
+}
+.Cust{
+  position: inherit;
+  margin: 123px 18px;
+  width: 154px;
+  height: 18px;
+}
+.Better{
+  position: inherit;
+  margin: 123px 271px;
+  width: 116px;
+  height: 18px;
+}
+.Free{
+  position: inherit;
+  margin: 123px 495px;
+  width: 154px;
+  height: 18px;
+}
+.textCust, .textBetter, .textFree{
+  font-family: "Myriad";
+  font-size: 23px;
+  color: #222222;
+  text-transform: uppercase;
+  margin-top: -5px;
+}
+.SmallVideo{
+  position: absolute;
+  margin-top: 563px;
+}
+.TextVideo{
+  position: inherit;
+  margin: 11px 9px;
+}
+.Lorem{
+  position: inherit;
+  margin: 33px 35px;
+  width: 235px;
+}
+.textLorem{
+  font-family: "Myriad";
+  font-size: 28px;
+  color: #FFFFFF;
+  margin-top: -5px;
+}
+.Mult{
+  position: inherit;
+  margin: 10px 317px;
+}
+.Butt{
+  position: inherit;
+  margin: 102px 446px;
+}
+.Shape{
+  position: inherit;
+  margin: 117px 471px;
+}
+.Twitter{
+  position: absolute;
+  margin-top: 811px;
+}
+.TwitterBack{
+  position: inherit;
+}
+.TwitterBird{
+  position: inherit;
+  margin: 58px 84px;
+}
+.MessBack{
+  position: inherit;
+  margin-left: 309px
+}
+.Plus{
+  position: inherit;
+  margin: 214px 285px;
+}
+.Cloud1{
+  position: inherit;
+  margin: 23px 323px;
+}
+.Cloud2{
+  position: inherit;
+  margin: 79px 323px;
+  opacity: 0.7019607843137254;
+}
+.Cloud3{
+  position: inherit;
+  margin: 135px 323px;
+  opacity: 0.6;
+}
+.Mess1{
+  position: inherit;
+  margin: 33px 351px;
+}
+.Mess2{
+  position: inherit;
+  margin: 89px 351px;
+}
+.Mess3{
+  position: inherit;
+  margin: 145px 351px;
+}
+.Mess{
+  width: 217px;
+  font-family: "Myriad";
+  font-size: 13px;
+  color: #8F8E8E;
+  margin-top: -5px;
+}
+.Write{
+    position: inherit;
+    width: 271px;
+    height: 30px;
+    margin: 191px 336px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+    border: 1px solid #D0A806;
+    font-size: 13px;
+    color: #8f8e8e;
+    font-family: "Arial";
+    text-align:left;
+}
+.Write:focus,
+.Post:focus{
+    outline: none;
+}
+.Post{
+    margin: 191px 539px;
+    position: inherit;
+    width: 70px;
+    height: 34px;
+    background-image: linear-gradient(0deg, #ec9e03 0%, #d08e0c 100%) ;
+    border-radius:  0 10px 10px 0 ;
+    border: none;
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Arial";
+}
+.Post:hover{
+    cursor: pointer;
+}
+.LastBack{
+  position: inherit;
+}
+.LastSection{
+  position: absolute;
+  margin-top: 1044px;
+}
+.LastText{
+  position: inherit;
+  margin: 43px 21px;
+  width: 590px;
+  height: 30px;
+}
+.Last{
+  font-family: "MyriadPro";
+  font-size: 44px;
+  color: #F5C506;
+  text-transform: uppercase;
+  margin-top: -12px;
+  text-align: center;
+}
+.Mon{
+  position: inherit;
+  margin: 156px 57px;
+}
+.Lept{
+  position: inherit;
+  margin: 198px 404px;
+}
+.Smart{
+  position: inherit;
+  margin: 308px 558px;
+}
+.Sale{
+  position: inherit;
+  margin: 114px 26px;
+}
+.TextSale{
+  position: inherit;
+  margin: 168px 34px;
+  width: 105px;
+  height: 14px;
+}
+.SaleText{
+  font-family: "Myriad";
+  font-size: 17px;
+  color: white;
+  text-transform: uppercase;
+  margin-top: -3px;
+  text-align: center;
+}
+.ADS{
+  position: absolute;
+  margin-top: 1510px;
+}
+.TheLastOne{
+  position: absolute;
+  margin-top: -5px;
+  width: 640px;
+  opacity: 0.7;
+}
+.A{
+  position: inherit;
+  height: 43px;
+  width: 640px;
+}
+.B{
+  position: inherit;
+  margin: 6px 65px;
+}
+.C{
+  position: inherit;
+  margin: 6px 64px;
+}
+.D{
+  position: inherit;
+  margin: 16px 106px;
+}
+.E{
+  font-family: "Sans";
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+  margin-top: -3px;
+  text-shadow: 1px 2px 1px #2C2C2C;
+}

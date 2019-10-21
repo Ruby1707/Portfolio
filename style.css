@@ -1,0 +1,202 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(back.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  height: 200px;
+}
+.carousel {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.IMG{
+  width:200px;
+  height: 100%;
+  border-radius: 50%;
+  background-image: url(head.png);
+  background-size: cover;
+}
+.INFO{
+  color: white;
+  font-size: 60px;
+}
+
+.items-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.item {
+  width: 100%;
+  display: none;
+  position: relative;
+  animation: 1s ease-in-out;
+  margin: 0 5%;
+}
+.Contacts{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+  width:20%;
+}
+.Contacts ul{
+  padding:0;
+}
+.Contacts li{
+  font-size: 25px;
+  height:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Info{
+  position: absolute;
+  width: 70%;
+  height: 180px;
+  margin: 0;
+}
+.Intro{
+  width: 100%;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+}
+.hide, .hide + label ~ div {
+  visibility: hidden;
+}
+.hide:checked + label + div {
+  visibility: visible;
+}
+label {
+  font-size: 17px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.active,
+.next {
+  display: block;
+}
+
+.next {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.description {
+  width: 50%;
+  margin: 30px 20%;
+  font-size: 32px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.project-name {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+}
+
+.control {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 15%;
+  
+}
+
+.control.left {
+  left: 0;
+  right: auto;
+}
+
+.control.right {
+  right: 0;
+  left: auto;
+}
+
+.arrow {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 84px;
+  cursor: pointer;
+}
+
+.arrow.right {
+  right: 50%;
+}
+
+.to-left {
+  animation-name: left;
+}
+
+.from-right {
+  animation-name: right;
+}
+
+.to-right {
+  animation-name: right;
+  animation-direction: reverse;
+}
+
+.from-left {
+  animation-name: left;
+  animation-direction: reverse;
+}
+
+@keyframes left {
+  from {
+    left: 0;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes right {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0;
+  }
+}
+@media (max-width:500px){
+  .arrow{
+    display: none;
+  }
+}
