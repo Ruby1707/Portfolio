@@ -19,7 +19,35 @@
     src: url(./assets/Shrifts/ProximaNova-Regular.ttf);
 }
 
+.bodyTwo{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 10150px;
+  align-items: stretch;
+  max-width: 375px;
+  margin: 0px auto;
+  width: 375px
+}
 
+.body{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 10150px;
+  align-items: stretch;
+  max-width: 1440px;
+  width: 100%;
+  min-width: 375px;
+  margin: 0px auto;
+}
+.style1{
+  width: 0px;
+  height: 100%;
+}
+button{
+  position: absolute;
+}
 body {
   display: flex;
   flex-direction: column;
@@ -1409,8 +1437,7 @@ header, footer {
 }
 .No{display: none;
 }
-@media
-(width: 400px) {
+@media (width: 400px) {
   .Instagramm {
     display: none;
   }
@@ -1427,7 +1454,7 @@ header, footer {
     display: none;
   }
 }
-@media (width: 375px) {
+@media screen and (width: 375px) {
   body {
     display: flex;
     flex-direction: column;
